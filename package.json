@@ -1,0 +1,11 @@
+{
+  "name": "shift",
+  "version": "1.0.0",
+  "description": "Shift App is a productivity tool.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isabella Lin",
+  "license": "GPL-3.0-or-later"
+}
