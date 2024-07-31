@@ -4,6 +4,7 @@
   "description": "Shift App is a productivity tool.",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Isabella Lin",

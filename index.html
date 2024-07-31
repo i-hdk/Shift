@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Do your work🔪</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+  <body>
+    <div>
+        <div id="settings">
+            <h3>settings</h3>
+            <form id="form1">
+                <label for="startTime">Start time: (please write in 24h format XX:XX eg. 07:00)</label>
+                <input type="text" id="startTime" name="startTime">
+                <br>
+                <label for="endTime">End time:</label>
+                <input type="text" id="endTime" name="endTime">
+            </form>
+            <button id="submit">set timeframe</button>
+        </div>
+        <div id="timeview">
+            <h3>timeview</h3>
+            <p id="startText"></p>
+            <p id="endText"></p>
+        </div>
+    </div>
+    <h1>Hello from Electron renderer!</h1>
+    <p>👋</p>
+  </body>
+  <script src="./renderer.js"></script>
+</html>

@@ -1,0 +1,22 @@
+#settings
+{
+    display: inline-block;
+    background-color: rgb(203, 203, 203);
+    height: 500px;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 20px;
+    margin-left: 10px;
+}
+#timeview
+{
+    display: inline-block;
+    background-color: rgb(203, 203, 203);
+    height: 500px;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 20px;
+    margin-left: 10px;
+}
